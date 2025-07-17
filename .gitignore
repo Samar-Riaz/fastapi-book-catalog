@@ -1,0 +1,51 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pip-wheel-metadata/
+
+# VSCode settings
+.vscode/
+
+# SQLite database (optional: remove this line if you want to upload db)
+*.db
+
+# Python virtual environment files
+*.egg-info/
+*.egg
+*.log
+
+# Environment variables / secrets
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+.hypothesis/
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# pyright
+pyrightconfig.json
+
+# Ruff / Lint cache
+.ruff_cache/
+
+# Build
+build/
+dist/
