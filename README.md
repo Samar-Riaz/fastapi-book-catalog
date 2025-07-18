@@ -42,10 +42,10 @@ After installing dependencies, use `pytest` to run tests.
 
 ```bash
 # Run unit tests only
-pytest tests/test_crud.py
+pytest tests/unit_testing.py
 
 # Run integration tests only
-pytest tests/test_routes.py
+pytest tests/integration_testing.py
 
 # Run all tests
 pytest
@@ -65,8 +65,8 @@ book-catalog/
 │   └── database.py       # DB setup
 │
 ├── tests/
-│   ├── test_crud.py      # Unit tests
-│   └── test_routes.py    # Integration tests
+│   ├── unit_testing.py      # Unit tests
+│   └── integration_testing.py # Integration tests
 │
 ├── requirements.txt      # Dependency list
 └── README.md             # This file
